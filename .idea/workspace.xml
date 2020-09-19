@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c7c33cf-f8f7-4d9c-93bc-18a5435aecec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/NQueensProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/PowerSetEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -65,11 +65,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Recursion/NQueensProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="460">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Recursion/PowerSetEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -99,6 +108,8 @@
         <option value="$PROJECT_DIR$/src/Recursion/CountingCellinaBlob.java" />
         <option value="$PROJECT_DIR$/src/Recursion/mazeProject/MazeBack.java" />
         <option value="$PROJECT_DIR$/src/Recursion/NQueensProblem.java" />
+        <option value="$PROJECT_DIR$/src/Recursion/PowerSet.java" />
+        <option value="$PROJECT_DIR$/src/Recursion/PowerSetEx.java" />
       </list>
     </option>
   </component>
@@ -157,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NQueensProblem">
+  <component name="RunManager" selected="Application.PowerSetEx">
     <configuration name="CountingCellinaBlob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.CountingCellinaBlob" />
       <module name="algorith_sec" />
@@ -197,9 +208,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionBasicEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.RecursionBasicEx1" />
+    <configuration name="PowerSetEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.PowerSetEx" />
       <module name="algorith_sec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PowerSetEx" />
         <item itemvalue="Application.NQueensProblem" />
         <item itemvalue="Application.CountingCellinaBlob" />
         <item itemvalue="Application.Maze" />
         <item itemvalue="Application.RecursionBasicEx2" />
-        <item itemvalue="Application.RecursionBasicEx1" />
       </list>
     </recent_temporary>
   </component>
@@ -242,6 +259,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -260,7 +278,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -287,10 +305,10 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Recursion/NQueensProblem.java</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/src/Recursion/PowerSetEx.java</url>
+          <line>39</line>
           <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -349,8 +367,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursion/NQueensProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="460">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion/PowerSetEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="36" />
         </state>
       </provider>
     </entry>
