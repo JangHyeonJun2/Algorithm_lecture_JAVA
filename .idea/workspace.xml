@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c7c33cf-f8f7-4d9c-93bc-18a5435aecec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/PowerSetEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/basic/Max3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/basic/Max3m.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/basic/example/N1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/basic/example/N2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,24 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Recursion/RecursionBasicEx1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Recursion/RecursionBasicEx2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Recursion/mazeProject/Maze.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,11 +59,64 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Recursion/PowerSetEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="36" />
+            <state relative-caret-position="525">
+              <caret line="35" column="36" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/basic/Max3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/basic/Max3m.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/basic/example/N1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/basic/example/N2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/basic/example/N4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -110,6 +148,12 @@
         <option value="$PROJECT_DIR$/src/Recursion/NQueensProblem.java" />
         <option value="$PROJECT_DIR$/src/Recursion/PowerSet.java" />
         <option value="$PROJECT_DIR$/src/Recursion/PowerSetEx.java" />
+        <option value="$PROJECT_DIR$/src/doit_Algorithm/Max3.java" />
+        <option value="$PROJECT_DIR$/src/doit_Algorithm/Max3m.java" />
+        <option value="$PROJECT_DIR$/src/doit_Algorithm/basic/Max3m.java" />
+        <option value="$PROJECT_DIR$/src/doit_Algorithm/basic/example/N1.java" />
+        <option value="$PROJECT_DIR$/src/doit_Algorithm/basic/N2.java" />
+        <option value="$PROJECT_DIR$/src/doit_Algorithm/basic/example/N2.java" />
       </list>
     </option>
   </component>
@@ -142,6 +186,27 @@
               <item name="algorith_sec" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorith_sec" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="doit_Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorith_sec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorith_sec" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="doit_Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorith_sec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorith_sec" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="doit_Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorith_sec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorith_sec" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Recursion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -168,13 +233,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PowerSetEx">
-    <configuration name="CountingCellinaBlob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.CountingCellinaBlob" />
+  <component name="RunManager" selected="Application.N4">
+    <configuration name="Max3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.basic.Max3" />
       <module name="algorith_sec" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="doit_Algorithm.basic.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.mazeProject.Maze" />
+    <configuration name="Max3m" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.basic.Max3m" />
       <module name="algorith_sec" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.mazeProject.*" />
+          <option name="PATTERN" value="doit_Algorithm.basic.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,12 +260,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueensProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.NQueensProblem" />
+    <configuration name="N1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.basic.example.N1" />
       <module name="algorith_sec" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="doit_Algorithm.basic.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,12 +273,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerSetEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.PowerSetEx" />
+    <configuration name="N2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.basic.example.N2" />
       <module name="algorith_sec" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="doit_Algorithm.basic.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,12 +286,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionBasicEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.RecursionBasicEx2" />
+    <configuration name="N4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.basic.example.N4" />
       <module name="algorith_sec" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="doit_Algorithm.basic.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PowerSetEx" />
-        <item itemvalue="Application.NQueensProblem" />
-        <item itemvalue="Application.CountingCellinaBlob" />
-        <item itemvalue="Application.Maze" />
-        <item itemvalue="Application.RecursionBasicEx2" />
+        <item itemvalue="Application.N4" />
+        <item itemvalue="Application.N2" />
+        <item itemvalue="Application.N1" />
+        <item itemvalue="Application.Max3m" />
+        <item itemvalue="Application.Max3" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +326,7 @@
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -270,8 +335,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -374,8 +439,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursion/PowerSetEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="525">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/basic/Max3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/basic/Max3m.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/basic/example/N1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/basic/example/N2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/basic/example/N4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
