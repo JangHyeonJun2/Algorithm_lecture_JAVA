@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c7c33cf-f8f7-4d9c-93bc-18a5435aecec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/sector2/CloneArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/sector2/MaxOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/sector2/MaxOfArrayRand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/sector2/MaxValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/sector2/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/basic/example/Sec02_N2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/basic/example/Sec02_N3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/doit_Algorithm/basic/example/N4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorith_sec/doit_Algorithm/basic/example/N4.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +57,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/sector2/ReverseArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="495">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/basic/example/Sec02_N2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/basic/example/Sec02_N3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -109,6 +123,8 @@
         <option value="$PROJECT_DIR$/src/doit_Algorithm/sector2/MaxOfArray.java" />
         <option value="$PROJECT_DIR$/src/doit_Algorithm/sector2/MaxOfArrayRand.java" />
         <option value="$PROJECT_DIR$/src/doit_Algorithm/sector2/ReverseArray.java" />
+        <option value="$PROJECT_DIR$/src/doit_Algorithm/basic/example/Sec02_N2.java" />
+        <option value="$PROJECT_DIR$/src/doit_Algorithm/basic/example/Sec02_N3.java" />
       </list>
     </option>
   </component>
@@ -153,6 +169,14 @@
               <item name="algorith_sec" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="doit_Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorith_sec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorith_sec" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="doit_Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="sector2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -187,20 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseArray">
-    <configuration name="CloneArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.sector2.CloneArray" />
-      <module name="algorith_sec" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="doit_Algorithm.sector2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Sec02_N3">
     <configuration name="MaxOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="doit_Algorithm.sector2.MaxOfArray" />
       <module name="algorith_sec" />
@@ -227,19 +238,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.sector2.MaxValue" />
-      <module name="algorith_sec" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="doit_Algorithm.sector2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="doit_Algorithm.sector2.ReverseArray" />
       <module name="algorith_sec" />
@@ -253,13 +251,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sec02_N2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.basic.example.Sec02_N2" />
+      <module name="algorith_sec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="doit_Algorithm.basic.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sec02_N3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.basic.example.Sec02_N3" />
+      <module name="algorith_sec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="doit_Algorithm.basic.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sec02_N3" />
+        <item itemvalue="Application.Sec02_N2" />
         <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.MaxOfArrayRand" />
         <item itemvalue="Application.MaxOfArray" />
-        <item itemvalue="Application.MaxValue" />
-        <item itemvalue="Application.CloneArray" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +304,7 @@
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26800978" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26800978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -289,7 +313,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -466,8 +490,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/sector2/ReverseArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="495">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/basic/example/Sec02_N2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/basic/example/Sec02_N3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
         </state>
       </provider>
     </entry>
