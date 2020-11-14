@@ -1,4 +1,4 @@
-package doit_Algorithm.검색알고리즘;
+package doit_Algorithm.검색알고리즘.연습문제;
 
 import java.util.Scanner;
 
