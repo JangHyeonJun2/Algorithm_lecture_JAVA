@@ -7,10 +7,15 @@ public class SeqSearchSen {
         int i=0;
 
         a[n] = key; //보초를 추가
-        while(true){
-            if(a[i] == key) //검색 성공!!
+//        while(true){
+//            if(a[i] == key) //검색 성공!!
+//                break;
+//            i++;
+//        }
+
+        for (; ;i++){
+            if (a[i] == key)
                 break;
-            i++;
         }
         return i == n ? -1 : i;
     }
