@@ -1,41 +1,41 @@
 package doit_Algorithm.큐;
 
-public class IntAryQueue {
+public class Gqueue<E> {
     private int max;
     private int num;
-    private int[] que;
+    private E[] que;
     private int front;
     private int rear;
     private int capacity;
 
 
-    public class EmptyIntQuekException extends RuntimeException {
+    public static class EmptyIntQuekException extends RuntimeException {
         public EmptyIntQuekException(){
 
         }
     }
 
-    public class OverflowIntQuekException extends RuntimeException {
+    public static class OverflowIntQuekException extends RuntimeException {
         public OverflowIntQuekException(){
 
         }
     }
 
 
-    public IntAryQueue(int capacity) {
+    public Gqueue(int capacity) {
         max = capacity;
         num = 0;
         front = 0;
         rear = 0;
 
         try {
-            que = new int[max];
+            que = (E[]) new Object[max];
         }catch (OutOfMemoryError e){
             max = 0;
         }
     }
 
-    public void enque(int number) throws OverflowIntQuekException{
+    public void enque(E number) throws OverflowIntQuekException{
         if (rear >= max){
             throw new OverflowIntQuekException();
         }
@@ -48,13 +48,13 @@ public class IntAryQueue {
         System.out.println("front : " + front + ", " + "rear : " + rear);
     }
 
-    public int deque() throws EmptyIntQuekException{
+    public E deque() throws EmptyIntQuekException{
         if (rear <= front){
             throw new EmptyIntQuekException();
         }
 
 
-        int x = que[front++];
+        E x = que[front++];
         num--;
 
         if (front == max)
@@ -64,7 +64,7 @@ public class IntAryQueue {
         return x;
     }
 
-    public int peek() throws EmptyIntQuekException{
+    public E peek() throws EmptyIntQuekException{
         if (num <= 0){
             throw new EmptyIntQuekException();
         }
@@ -72,7 +72,7 @@ public class IntAryQueue {
         return que[front];
     }
 
-    public int indexOf(int x){
+    public int indexOf(E x){
         for (int i=0; i<num; i++){
             int idx = (i+front) % max;
             if(que[idx] == x)
@@ -81,7 +81,7 @@ public class IntAryQueue {
         return -1; //검색 실패
     }
 
-    public int search(int x) throws EmptyIntQuekException{
+    public int search(E x) throws EmptyIntQuekException{
         for (int i=0; i<num; i++){
             if (que[(i+front) % max] == x)
                 return i+1;
