@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class IntStackTester {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        IntStack s = new IntStack(64);
+        Gstack s = new Gstack(64);
 
         while(true){
             System.out.println("현재 데이터 수 : " + s.size() + " /" + s.capacity());
@@ -15,14 +15,14 @@ public class IntStackTester {
             if(menuButton == 0)
                 break;
 
-            int x;
+            Object x;
             switch (menuButton){
                 case 1:
                     System.out.print("Data : ");
                     x = sc.nextInt();
                     try{
                         s.push(x);
-                    }catch (IntStack.OverflowIntStackException e){
+                    }catch (Gstack.OverflowIntStackException e){
                         System.out.println("Stack is Full...");
                     }
                     break;
@@ -31,14 +31,14 @@ public class IntStackTester {
                     try {
                         x = s.pop();
                         System.out.println("Data is " + x);
-                    }catch (IntStack.EmptyIntStackException e){
+                    }catch (Gstack.EmptyIntStackException e){
                         System.out.println("Stack is Empty...");
                     }
                     break;
                 case 3:
                     try{
                         System.out.println("Data is " + s.peek());
-                    }catch (IntStack.EmptyIntStackException e){
+                    }catch (Gstack.EmptyIntStackException e){
                         System.out.println("Stack is Empty...");
                     }
                     break;
