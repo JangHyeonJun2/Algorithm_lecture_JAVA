@@ -1,50 +1,32 @@
 import java.io.*;
+import java.util.Scanner;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
 public class Ex1 {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st;
-        BufferedWriter bw=new BufferedWriter(new OutputStreamWriter(System.out));
-        int N=Integer.parseInt(br.readLine());
-        int[] list=new int[N+1];
-        int[] ans=new int[N+1];
-        Stack<Integer> s=new Stack();
-
-        st=new StringTokenizer(br.readLine());
-        for(int i=1;i<=N;i++) {
-            list[i]=Integer.parseInt(st.nextToken());
+    public static int gcd(int x, int y) {
+        if (y == 0) {
+            return x;
+        } else {
+            return gcd(y, x%y);
         }
-
-        for(int i=N;i>=1;i--) {
-            if(s.isEmpty()) {
-                ans[i]=-1;
-                s.push(list[i]);
+    }
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            int[] a = new int[n];
+            for (int i = 0; i < n; i++) {
+                a[i] = sc.nextInt();
             }
-            else {
-                while(!s.isEmpty()) {
-                    if(s.peek()<=list[i]) {
-                        s.pop();
-                    }
-                    else {
-                        break;
-                    }
-                }
-                if(s.isEmpty()) {
-                    ans[i]=-1;
-                    s.push(list[i]);
-                }
-                else {
-                    ans[i]=s.peek();
-                    s.push(list[i]);
+            long ans = 0;
+            for (int i = 0; i < n - 1; i++) {
+                for (int j = i + 1; j < n; j++) {
+                    ans += gcd(a[i], a[j]);
                 }
             }
+            System.out.println(ans);
         }
-        for(int i=1;i<=N;i++) {
-            bw.write(ans[i]+" ");
-        }
-        bw.flush();
-        bw.close();
     }
 }
