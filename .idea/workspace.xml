@@ -2,57 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c7c33cf-f8f7-4d9c-93bc-18a5435aecec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/스택/GStack2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/큐/LastNElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/DynamicPrograming_Ex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex10430.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex11052.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex11053.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex11726.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex14002.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex14002v2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex1463.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex17087.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex17298.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex1929.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex1943.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex1978.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex2193.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex2193v2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex2609.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Ex9613.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/Main2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/MyString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/doit_Algorithm/스택/IntStack$EmptyIntStackException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorith_sec/doit_Algorithm/스택/IntStack$EmptyIntStackException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/doit_Algorithm/스택/IntStack$OverflowIntStackException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorith_sec/doit_Algorithm/스택/IntStack$OverflowIntStackException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/doit_Algorithm/스택/IntStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorith_sec/doit_Algorithm/스택/IntStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/doit_Algorithm/스택/IntStackTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorith_sec/doit_Algorithm/스택/IntStackTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/람다function패키지/ExRemoveIf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorith_sec/람다function패키지/ExRemoveIf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicPrograming_Ex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/DynamicPrograming_Ex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex10430.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex10430.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex11052.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex11052.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex11053.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex11053.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex11726.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex11726.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex14002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex14002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex14002v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex14002v2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1463.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex1463.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex17087.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex17087.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex17298.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex17298.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1929.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex1929.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1943.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex1943.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex1978.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex1978.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex2193.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex2193.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex2193v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex2193v2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex2609.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex2609.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex9613.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Ex9613.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/백준알고리즘/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doit_Algorithm/검색알고리즘/이진탐색/BinSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit_Algorithm/검색알고리즘/이진탐색/BinSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doit_Algorithm/스택/IntStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit_Algorithm/스택/IntStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doit_Algorithm/스택/IntStackTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit_Algorithm/스택/IntStackTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/doit_Algorithm/큐/IntAryQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorith_sec/doit_Algorithm/큐/IntAryQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doit_Algorithm/큐/IntAryQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit_Algorithm/큐/IntAryQueue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,11 +31,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/스택/IntStackTester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/큐/IntAryQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/큐/Gqueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1155">
+              <caret line="77" column="29" lean-forward="true" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/큐/IntAryQueueTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/큐/LastNElements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -128,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/doit_Algorithm/검색알고리즘/SeqSearchSen.java" />
         <option value="$PROJECT_DIR$/src/doit_Algorithm/검색알고리즘/SearchIndexEx03_03.java" />
         <option value="$PROJECT_DIR$/src/doit_Algorithm/검색알고리즘/BinSerachXEx03_05.java" />
         <option value="$PROJECT_DIR$/src/doit_Algorithm/검색알고리즘/연습문제/BinSerachXEx03_05.java" />
@@ -138,7 +126,6 @@
         <option value="$PROJECT_DIR$/src/doit_Algorithm/검색알고리즘/클래스메서드와인스턴스메서드/PhysExamSearch.java" />
         <option value="$PROJECT_DIR$/src/doit_Algorithm/검색알고리즘/클래스메서드와인스턴스메서드/GenericClassTester.java" />
         <option value="$PROJECT_DIR$/src/doit_Algorithm/스택/Gstack.java" />
-        <option value="$PROJECT_DIR$/src/doit_Algorithm/큐/IntAryQueue.java" />
         <option value="$PROJECT_DIR$/src/doit_Algorithm/큐/Gqueue.java" />
         <option value="$PROJECT_DIR$/src/doit_Algorithm/큐/IntAryQueueTester.java" />
         <option value="$PROJECT_DIR$/src/Ex.java" />
@@ -179,6 +166,8 @@
         <option value="$PROJECT_DIR$/src/doit_Algorithm/스택/IntStack.java" />
         <option value="$PROJECT_DIR$/src/doit_Algorithm/스택/GStack2.java" />
         <option value="$PROJECT_DIR$/src/doit_Algorithm/스택/IntStackTester.java" />
+        <option value="$PROJECT_DIR$/src/doit_Algorithm/큐/IntAryQueue.java" />
+        <option value="$PROJECT_DIR$/src/doit_Algorithm/큐/LastNElements.java" />
       </list>
     </option>
   </component>
@@ -233,13 +222,6 @@
               <item name="algorith_sec" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="doit_Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="스택" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorith_sec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorith_sec" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="doit_Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="큐" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -266,20 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntStackTester">
-    <configuration name="ExConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="람다function패키지.ExConsumer" />
-      <module name="algorith_sec" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="람다function패키지.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LastNElements">
     <configuration name="ExFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="람다function패키지.ExFunction" />
       <module name="algorith_sec" />
@@ -306,12 +275,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExSupplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="람다function패키지.ExSupplier" />
+    <configuration name="IntAryQueueTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.큐.IntAryQueueTester" />
       <module name="algorith_sec" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="람다function패키지.*" />
+          <option name="PATTERN" value="doit_Algorithm.큐.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,20 +301,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LastNElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.큐.LastNElements" />
+      <module name="algorith_sec" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="doit_Algorithm.큐.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ExConsumer" />
       <item itemvalue="Application.ExFunction" />
       <item itemvalue="Application.ExRemoveIf" />
-      <item itemvalue="Application.ExSupplier" />
       <item itemvalue="Application.IntStackTester" />
+      <item itemvalue="Application.IntAryQueueTester" />
+      <item itemvalue="Application.LastNElements" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LastNElements" />
+        <item itemvalue="Application.IntAryQueueTester" />
         <item itemvalue="Application.IntStackTester" />
         <item itemvalue="Application.ExRemoveIf" />
         <item itemvalue="Application.ExFunction" />
-        <item itemvalue="Application.ExConsumer" />
-        <item itemvalue="Application.ExSupplier" />
       </list>
     </recent_temporary>
   </component>
@@ -364,6 +346,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4968153" visible="true" weight="0.1898657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -564,14 +547,6 @@
           <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/doit_Algorithm/큐/IntAryQueue.java</url>
-          <line>83</line>
-          <properties class="doit_Algorithm.큐.IntAryQueue" method="search">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -579,17 +554,6 @@
     <SUITE FILE_PATH="coverage/algorith_sec$Main.ic" NAME="Main Coverage Results" MODIFIED="1606047716014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="2536" column="27" selection-start-line="2536" selection-start-column="27" selection-end-line="2536" selection-end-column="27" />
-          <folding>
-            <element signature="e#88417#88418#0" expanded="true" />
-            <element signature="e#88474#88475#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/검색알고리즘/SeqSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -638,25 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/큐/Gqueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="29" lean-forward="true" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
-          <folding>
-            <element signature="e#1974#1975#0" expanded="true" />
-            <element signature="e#2012#2013#0" expanded="true" />
-            <element signature="e#2061#2062#0" expanded="true" />
-            <element signature="e#2087#2088#0" expanded="true" />
-            <element signature="e#2135#2136#0" expanded="true" />
-            <element signature="e#2161#2162#0" expanded="true" />
-            <element signature="e#2209#2210#0" expanded="true" />
-            <element signature="e#2265#2266#0" expanded="true" />
-            <element signature="e#2295#2296#0" expanded="true" />
-            <element signature="e#2328#2329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home/lib/src.zip!/java.base/java/util/StringTokenizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -664,24 +609,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/큐/IntAryQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursion/RecursionBasicEx2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/큐/IntAryQueueTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -997,6 +928,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/큐/IntAryQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/큐/Gqueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="29" lean-forward="true" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/큐/IntAryQueueTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/큐/LastNElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
         </state>
       </provider>
     </entry>

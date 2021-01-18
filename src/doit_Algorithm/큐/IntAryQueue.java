@@ -43,8 +43,8 @@ public class IntAryQueue {
         que[rear++] = number;
         num++;
 
-//        if (rear == max)
-//            rear = 0;
+        if (rear == max)
+            rear = 0;
         System.out.println("front : " + front + ", " + "rear : " + rear);
     }
 
