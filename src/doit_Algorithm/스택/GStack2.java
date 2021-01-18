@@ -1,47 +1,42 @@
 package doit_Algorithm.스택;
 
-public class IntStack {
+public class GStack2<E> {
     private int max;
     private int ptr;
-    private int[] stk;
-
+    private E[] stk;
 
     //실행 시 예외 : 스택이 비어 있음
-    public class EmptyIntStackException extends RuntimeException {
+    public  static class EmptyIntStackException extends RuntimeException {
         public EmptyIntStackException(){}
     }
 
     //실행 시 예외 : 스택이 가득 참
-    public class OverflowIntStackException extends RuntimeException {
+    public static class OverflowIntStackException extends RuntimeException {
         public OverflowIntStackException() {}
     }
 
-    //생성자
-
-
-    public IntStack(int capacity) {
+    public GStack2(int capacity) {
         ptr = 0;
-        max = capacity;
-        try {
-            stk = new int[max];
-        }catch (OutOfMemoryError e) {
+        this.max = capacity;
+        try{
+            stk = (E[])new Object[max];
+        }catch (OutOfMemoryError e){
             max = 0;
         }
     }
-
-    public int push(int x) throws OverflowIntStackException {
+    public E push(E x) throws OverflowIntStackException {
         if (ptr >= max)
             throw new OverflowIntStackException();
         return stk[ptr++] = x;
     }
 
-    public int pop() throws EmptyIntStackException {
+    public E pop() throws EmptyIntStackException {
         if (ptr <= 0)
             throw new EmptyIntStackException();
         return stk[--ptr];
     }
 
-    public int peek() throws EmptyIntStackException {
+    public E peek() throws EmptyIntStackException {
         if (ptr <= 0)
             throw new EmptyIntStackException();
         return stk[ptr -1];
@@ -73,7 +68,7 @@ public class IntStack {
     }
 
     //스택에서 x를 찾아 인덱스(없으면 -1)를 반환
-    public int indexOf(int x) throws EmptyIntStackException{
+    public <E extends Number> int indexOf(E x) throws EmptyIntStackException{
         if (ptr <= 0)
             throw new EmptyIntStackException();
         for (int i= ptr - 1; i >= 0; i--) { //정상쪽에서 선형 검색
