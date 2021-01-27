@@ -33,8 +33,9 @@ public class BubbleSort {
                     swap(a, j-1 , j);
                     last = j;
                 }
-                k = last;
+
             }
+            k = last;
         }
     }
     public static void main(String[] args) {
