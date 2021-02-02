@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/퀵정렬/Partition.java" line="43" mnemonic="5" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2c7c33cf-f8f7-4d9c-93bc-18a5435aecec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/정렬/단순삽입정렬/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/정렬/단순선택정렬/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/정렬/연습문제/P.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/정렬/연습문제/Q6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/정렬/셸정렬/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/정렬/퀵정렬/Partition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doit_Algorithm/정렬/퀵정렬/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorith_sec/doit_Algorithm/정렬/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorith_sec/doit_Algorithm/정렬/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doit_Algorithm/정렬/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/doit_Algorithm/정렬/BubbleSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,12 +26,12 @@
     <favorites_list name="algorith_sec" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="58" column="9" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="58" selection-end-column="9" />
+            <state relative-caret-position="870">
+              <caret line="58" column="9" selection-start-line="41" selection-start-column="8" selection-end-line="58" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -37,17 +39,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/단순선택정렬/SelectionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="585">
+              <caret line="39" column="9" selection-start-line="22" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/연습문제/Q6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+            <state relative-caret-position="540">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Solution2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -56,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/연습문제/P.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -64,8 +87,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/단순삽입정렬/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="390">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/셸정렬/ShellSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/퀵정렬/Partition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-344">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/퀵정렬/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -93,12 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Ex17298.java" />
-        <option value="$PROJECT_DIR$/src/Ex10430.java" />
-        <option value="$PROJECT_DIR$/src/Ex1943.java" />
-        <option value="$PROJECT_DIR$/src/Ex1978.java" />
-        <option value="$PROJECT_DIR$/src/Ex1929.java" />
-        <option value="$PROJECT_DIR$/src/Ex2609.java" />
         <option value="$PROJECT_DIR$/src/Ex1.java" />
         <option value="$PROJECT_DIR$/src/Ex9613.java" />
         <option value="$PROJECT_DIR$/src/Ex17087.java" />
@@ -144,6 +188,12 @@
         <option value="$PROJECT_DIR$/src/doit_Algorithm/정렬/단순삽입정렬/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/doit_Algorithm/정렬/연습문제/P.java" />
         <option value="$PROJECT_DIR$/src/doit_Algorithm/정렬/연습문제/Q6.java" />
+        <option value="$PROJECT_DIR$/src/하샤드수.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Solution2.java" />
+        <option value="$PROJECT_DIR$/src/doit_Algorithm/정렬/셸정렬/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/doit_Algorithm/정렬/퀵정렬/Partition.java" />
+        <option value="$PROJECT_DIR$/src/doit_Algorithm/정렬/퀵정렬/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -190,22 +240,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="doit_Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="정렬" type="462c0819:PsiDirectoryNode" />
-              <item name="단순선택정렬" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorith_sec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorith_sec" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="doit_Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="정렬" type="462c0819:PsiDirectoryNode" />
-              <item name="연습문제" type="462c0819:PsiDirectoryNode" />
+              <item name="퀵정렬" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,13 +269,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q6">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.정렬.BubbleSort" />
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="Partition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.정렬.퀵정렬.Partition" />
       <module name="algorith_sec" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="doit_Algorithm.정렬.*" />
+          <option name="PATTERN" value="doit_Algorithm.정렬.퀵정렬.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,12 +283,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.정렬.단순삽입정렬.InsertionSort" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.정렬.퀵정렬.QuickSort" />
       <module name="algorith_sec" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="doit_Algorithm.정렬.단순삽입정렬.*" />
+          <option name="PATTERN" value="doit_Algorithm.정렬.퀵정렬.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,12 +296,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.정렬.연습문제.P" />
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.정렬.셸정렬.ShellSort" />
       <module name="algorith_sec" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="doit_Algorithm.정렬.연습문제.*" />
+          <option name="PATTERN" value="doit_Algorithm.정렬.셸정렬.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,46 +309,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.정렬.연습문제.Q6" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="algorith_sec" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="doit_Algorithm.정렬.연습문제.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doit_Algorithm.정렬.단순선택정렬.SelectionSort" />
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution2" />
       <module name="algorith_sec" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="doit_Algorithm.정렬.단순선택정렬.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="Application.SelectionSort" />
-      <item itemvalue="Application.InsertionSort" />
-      <item itemvalue="Application.P" />
-      <item itemvalue="Application.Q6" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.ShellSort" />
+      <item itemvalue="Application.Partition" />
+      <item itemvalue="Application.QuickSort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q6" />
-        <item itemvalue="Application.P" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.Partition" />
+        <item itemvalue="Application.ShellSort" />
+        <item itemvalue="Application.Solution2" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +357,7 @@
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968153" visible="true" weight="0.2014652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968153" visible="true" weight="0.21123321" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -336,8 +366,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50318474" side_tool="true" weight="0.1898657" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.32834226" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41925132" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.32834226" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.41925132" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -550,6 +580,18 @@
           <properties />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/doit_Algorithm/정렬/셸정렬/ShellSort.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/doit_Algorithm/정렬/퀵정렬/Partition.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/doit_Algorithm/재귀/연습문제/Q2.java</url>
           <line>9</line>
@@ -573,50 +615,6 @@
     <SUITE FILE_PATH="coverage/algorith_sec$Main.ic" NAME="Main Coverage Results" MODIFIED="1606047716014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/백준알고리즘/Ex11052.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/백준알고리즘/Ex2193v2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/백준알고리즘/Ex2193.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Example.java" />
     <entry file="file://$PROJECT_DIR$/src/백준알고리즘/Ex11053.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -921,36 +919,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="58" column="9" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="58" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/단순삽입정렬/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="870">
+          <caret line="58" column="9" selection-start-line="41" selection-start-column="8" selection-end-line="58" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/단순선택정렬/SelectionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="585">
+          <caret line="39" column="9" selection-start-line="22" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/연습문제/Q6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/연습문제/P.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/연습문제/Q6.java">
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/단순삽입정렬/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/셸정렬/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/퀵정렬/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/doit_Algorithm/정렬/퀵정렬/Partition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-344">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
